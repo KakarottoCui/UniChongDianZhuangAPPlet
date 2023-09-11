@@ -1,0 +1,109 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+		    "path" : "pages/app/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "糯米充电",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/app/infoItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资讯详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/regist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充电订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/app/chargeInfo/chargeInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充电站详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/app/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"mp-alipay": {
+			"allowsBounceVertical": "NO",
+			"transparentTitle": "always"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3c9cff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/app/index",
+			"iconPath": "static/images/index1.png",
+			"selectedIconPath": "static/images/index2.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "static/images/charge1.png",
+			"selectedIconPath": "static/images/charge2.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/home/home",
+			"iconPath": "static/images/myself1.png",
+			"selectedIconPath": "static/images/myself2.png",
+			"text": "我的"
+		}]
+	}
+}
