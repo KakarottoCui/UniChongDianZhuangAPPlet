@@ -1,7 +1,7 @@
 # UniChongDianZhuangAPPlet
 基于java SpringBoot和Vue uniapp的汽车充电桩微信小程序
 
-版本1演示视频链接：https://live.csdn.net/v/327239
+版本1演示视频链接：https://www.bilibili.com/video/BV1qp4y1m794/
 
 版本2演示视频链接：https://www.bilibili.com/video/BV1r5BNYpEmo/
 
