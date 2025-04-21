@@ -33,4 +33,4 @@
 
 后端 Java语言的SpringBoot框架、MySQL数据库、Maven依赖管理等；
 
-前端 后台前端使用HTML页面、element-ui等，微信小程序使用Vue.js语法的UniApp框架。
+前端 PC后台前端使用HTML页面、element-ui等，微信小程序使用Vue.js语法的UniApp框架。
