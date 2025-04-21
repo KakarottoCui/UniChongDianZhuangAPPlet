@@ -5,6 +5,8 @@
 
 版本2演示视频链接：https://www.bilibili.com/video/BV1r5BNYpEmo/
 
+版本3演示视频链接：https://www.bilibili.com/video/BV1eBLTzeEFn/
+
 详询 微信1：egvh56ufy7hh ，微信2：dabocode 。承接商业项目、课设、毕设和论文，包括但不限于Web、APP、小程序等，课设、毕设提供远程部署和不限次数代码解答！
 
 版本1实现的功能：
@@ -25,8 +27,10 @@
 
 版本2在1的基础上新增管理员可以给用户发消费券，用户在小程序端支付的时候可以抵扣充电费用，也可以查看已有的券，券分为已使用和未使用两种状态。
 
+版本3在版本2的基础上新增小程序端管理后台，即由原先的管理员只能通过电脑网页管理增加了小程序端管理。详见上面版本3视频。
+
 用到的技术：
 
-后端 java语言的SpringBoot框架、MySql数据库、Maven依赖管理等；
+后端 Java语言的SpringBoot框架、MySQL数据库、Maven依赖管理等；
 
-前端 PC前端使用element-ui、微信小程序使用Vue.js语法的UniApp框架。
+前端 后台前端使用HTML页面、element-ui等，微信小程序使用Vue.js语法的UniApp框架。
